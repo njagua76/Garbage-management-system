@@ -25,20 +25,25 @@ Language	Python 3
 Database	PostgreSQL
 Interface	Command-Line Interface (CLI)
 ORM/Driver	psycopg2
-Version Control	Git & GitHub
-🚀 Setup Instructions
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/garbage-collection-system.git
-cd garbage-collection-system
 
-2️⃣ Create a Virtual Environment
+Version Control	
+  Git & GitHub
+
+ Setup Instructions
+
+1️. Clone the Repository
+git clone https://github.com/your-username/garbage-management-system.git
+
+cd garbage-management-system
+
+2️. Create a Virtual Environment
 python3 -m venv venv
 source venv/bin/activate
 
-3️⃣ Install Dependencies
+3️. Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Configure PostgreSQL
+4️. Configure PostgreSQL
 
 Create a PostgreSQL database and update your credentials in the database_utils.py file:
 
@@ -67,7 +72,7 @@ Optional admin login system for security.
 
 GUI version using Tkinter or React + FastAPI backend.
 
-👨‍💻 Author
+# Author
 
 Ann Gathoni
 💬 Passionate about tech, sustainability, and clean solutions for smart communities.
